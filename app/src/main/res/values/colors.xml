@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLoginButton">#00909E</color>
+    <color name="colorNavigationBottom">#03887C</color>
+    <color name="colorLoginText">#FF8C00</color>
+    <color name="overlay_color">#55333639</color>
+    <color name="border_color">#AA333639</color>
+    <color name="login_text">#ff8c00</color>
+    <color name="colorBlack">#000000</color>
+    <color name="background_button_cart_star">#CD0449</color>
+    <color name="transBackground">#99000000</color>
+    <color name="colorRed">	#FF0000</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="add_to_cart_button_color">#FF9800</color>
+    <color name="comment_button_color">#0099FF</color>
+    <color name="transparent">#80000000</color>
+    <color name="dialog_header_color">#C5C5C5</color>
+    <color name="dialog_text_color">#464646</color>
+    <color name="background_star">#2C2626</color>
+    <color name="star">#FF9800</color>
+
+</resources>

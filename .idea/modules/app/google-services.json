@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "364831502553",
+    "firebase_url": "https://bkfoodcourt.firebaseio.com",
+    "project_id": "bkfoodcourt",
+    "storage_bucket": "bkfoodcourt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364831502553:android:3dec5d82d9c11ab5d84ec8",
+        "android_client_info": {
+          "package_name": "com.example.bkfoodcourt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364831502553-f992131hh9gcgbtl9onenep61m3st9ig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bkfoodcourt",
+            "certificate_hash": "56a5d23322325fbf44228020df8ecc86892693d6"
+          }
+        },
+        {
+          "client_id": "364831502553-3lg3lsrf0kkbq0nrdr3vdl9c0kf3achb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1lHbFVWX-9jKYSMyShNzouziubxtbh3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364831502553-3lg3lsrf0kkbq0nrdr3vdl9c0kf3achb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

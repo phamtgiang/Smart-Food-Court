@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/radius_listview_item1">
+
+        <ImageView
+            android:id="@+id/imageViewRequest"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/icon_name_tag"
+            android:layout_marginRight="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/EmployeeNameRequest"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Employee name"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.894"
+            app:layout_constraintStart_toEndOf="@+id/imageViewRequest"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingLeft="5dp"
+            app:layout_constraintVertical_bias="0.135" />
+
+        <TextView
+            android:id="@+id/EmployeeEmailRequest"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Employee email"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.851"
+            app:layout_constraintStart_toEndOf="@+id/imageViewRequest"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingLeft="5dp"
+            app:layout_constraintVertical_bias="0.358" />
+
+        <TextView
+            android:id="@+id/EmployeePositionRequest"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Employee position"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.894"
+            app:layout_constraintStart_toEndOf="@+id/imageViewRequest"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingLeft="5dp"
+            app:layout_constraintVertical_bias="0.586" />
+
+        <TextView
+            android:id="@+id/EmployeePhoneRequest"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Employee phone"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.894"
+            app:layout_constraintStart_toEndOf="@+id/imageViewRequest"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingLeft="5dp"
+            app:layout_constraintVertical_bias="0.82" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

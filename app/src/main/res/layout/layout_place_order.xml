@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/dialog_header_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_total_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bree_serif"
+        android:text="0.0"
+        android:textColor="@color/colorBlack"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_remaining_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bree_serif"
+        android:text="0.0"
+        android:textColor="@color/colorBlack"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

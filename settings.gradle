@@ -1,0 +1,3 @@
+include ':momo_partner_sdk'
+include ':app'
+rootProject.name = "BKFoodCourt"
